@@ -41,6 +41,6 @@ def download():
         return "success" # 리액트 UI가 'success'를 기다릴 수 있음
     except Exception as e:
         return str(e), 500
-g
+
 if __name__ == '__main__':
     app.run(debug=True)
